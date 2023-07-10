@@ -82,48 +82,70 @@
   <!-- Section 2 -->
   <div class="bg-white py-24 sm:py-32 overflow-hidden">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <h2 class="text-2xl font-medium tracking-tight sm:text-5xl mb-20">
-        What can we do for you?
-      </h2>
-      <div class="flex gap-12">
+      <div class="mb-10 sm:mb-20 space-y-5">
+        <h2 class="text-2xl font-medium tracking-tight sm:text-5xl ">
+          What can we do for you?
+        </h2>
+        <div class="border border-4 border-primary-800 w-28 sm:w-44 rounded-lg"/>
+      </div>
+
+      <div class="block space-y-10 sm:space-y-0 sm:flex gap-12">
         <div
             class="relative bg-secondary flex p-10 flex-col justify-between items-start flex-1 self-stretch rounded-xl h-[355px] overflow-hidden">
-          <h4 class="text-white text-lg sm:text-4xl">Laravel</h4>
+          <h4 class="text-white text-2xl sm:text-3xl">Laravel</h4>
           <img class="w-[126px] absolute -right-4 -top-4" src="../assets/laravel-logo.png" alt="Laravel Logo"/>
           <div>
             <p class="mb-6 text-gray-200">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum is simply.
             </p>
-            <div class="text-white text-xl font-medium">
+            <div class="flex items-center gap-4 text-white text-lg sm:text-xl font-medium">
               <div>Explore more</div>
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="15" cy="15" r="14.5" stroke="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M20.3386 14.7863L15.8353 18.5167L16.2205 18.9744L21.6051 14.4745L16.2205 10L15.8346 10.4569L20.3389 14.188H7.24609V14.7863H20.3386Z"
+                      fill="white"/>
+              </svg>
             </div>
           </div>
         </div>
 
         <div
             class="relative bg-secondary flex p-10 flex-col justify-between items-start flex-1 self-stretch rounded-xl h-[355px] overflow-hidden">
-          <h4 class="text-white text-lg sm:text-4xl">Vue & React</h4>
+          <h4 class="text-white text-2xl sm:text-3xl">Vue & React</h4>
           <img class="w-[74px] absolute -right-2 -top-2" src="../assets/react-logo.png" alt="Laravel Logo"/>
           <img class="w-[62px] absolute -right-0 top-16" src="../assets/vue-logo.png" alt="Laravel Logo"/>
           <div>
             <p class="mb-6 text-gray-200">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum is simply.
             </p>
-            <div class="text-white text-xl font-medium">
+            <div class="flex items-center gap-4 text-white text-lg sm:text-xl font-medium">
               <div>Explore more</div>
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="15" cy="15" r="14.5" stroke="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M20.3386 14.7863L15.8353 18.5167L16.2205 18.9744L21.6051 14.4745L16.2205 10L15.8346 10.4569L20.3389 14.188H7.24609V14.7863H20.3386Z"
+                      fill="white"/>
+              </svg>
             </div>
           </div>
         </div>
         <div
             class="relative bg-secondary flex p-10 flex-col justify-between items-start flex-1 self-stretch rounded-xl h-[355px] overflow-hidden">
-          <h4 class="text-white text-lg sm:text-4xl">UI & UX Design</h4>
+          <h4 class="text-white text-2xl sm:text-3xl">UI & UX Design</h4>
           <img class="w-[88px] absolute -right-6 top-2" src="../assets/figma-logo.png" alt="Laravel Logo"/>
           <div>
             <p class="mb-6 text-gray-200">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum is simply.
             </p>
-            <div class="text-white text-xl font-medium">
+            <div class="flex items-center gap-4 text-white text-lg sm:text-xl font-medium">
               <div>Explore more</div>
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="15" cy="15" r="14.5" stroke="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M20.3386 14.7863L15.8353 18.5167L16.2205 18.9744L21.6051 14.4745L16.2205 10L15.8346 10.4569L20.3389 14.188H7.24609V14.7863H20.3386Z"
+                      fill="white"/>
+              </svg>
             </div>
           </div>
         </div>
@@ -132,20 +154,21 @@
   </div>
 
   <!-- Section 3 -->
-  <div class="relative py-24 sm:py-32 ring ring-black inset-x mb-32 overflow-hidden">
+  <div class="relative py-24 sm:py-32 ring ring-black ring-1 sm:ring-2 inset-x overflow-hidden">
     <div class="absolute -inset-y-px left-1/2 z-10 w-full skew-x-[-30deg] bg-white" aria-hidden="true"></div>
-    <div class="absolute -inset-y-px left-1/2 z-20 w-[35px] -ml-[35px] skew-x-[-30deg] bg-primary-800"
-         aria-hidden="true"></div>
+    <div
+        class="absolute -inset-y-px left-1/2 z-20 w-[10px] sm:w-[35px] -ml-[10px] sm:-ml-[35px] skew-x-[-30deg] bg-primary-800"
+        aria-hidden="true"></div>
     <div class="absolute -inset-y-px right-1/2 z-10 w-full skew-x-[-30deg] bg-secondary" aria-hidden="true"></div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8 relative z-30">
-      <div class="grid grid-cols-2 text-2xl">
+      <div class="grid grid-cols-2 text-sm sm:text-2xl">
         <div class="text-white">
           <div>We help businesses bring ideas to life in</div>
-          <div>implementing the technology tools</div>
+          <div>implementing the technology</div>
         </div>
-        <div class="ml-16">
+        <div class="sm:ml-16">
           <div class="ml-10">the digital world, by designing and</div>
-          <div class="text-primary-800">that they need to win.</div>
+          <div class="ml-4 text-primary-800">tools that they need to win.</div>
         </div>
       </div>
     </div>
@@ -161,14 +184,24 @@
           class="mx-auto grid items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12">
         <div class="col-span-5 lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
-            <h2 class="text-3xl font-semibold leading-7 text-primary-800">Deco</h2>
-            <p class="mt-2 text-3xl font-medium tracking-tight text-gray-900 sm:text-2xl">Find the tents to save your
+            <h2 class="text-2xl sm:text-3xl font-semibold leading-7 text-primary-800">Deco</h2>
+            <p class="mt-2 text-2xl sm:text-3xl font-medium tracking-tight text-gray-900 sm:text-2xl">Find the tents to
+              save your
               Windshield</p>
-            <p class="mt-6 text-lg leading-8 text-gray-600 mb-6">
+            <p class="mt-6 text-base sm:text-lg leading-8 text-gray-600 mb-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
               industry's standard dummy text ever since the 1500s.
             </p>
-            <div class="text-primary-800 font-medium text-xl">View case study</div>
+            <div class="flex items-center gap-4 text-primary-800 font-medium text-base sm:text-xl">
+              <div>View case study</div>
+              <svg class="text-primary-800" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <circle cx="15" cy="15" r="14.5" stroke="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M20.3386 14.7863L15.8353 18.5167L16.2205 18.9744L21.6051 14.4745L16.2205 10L15.8346 10.4569L20.3389 14.188H7.24609V14.7863H20.3386Z"
+                      fill="currentColor"/>
+              </svg>
+            </div>
           </div>
         </div>
         <img src="../assets/deco1.png"
@@ -180,17 +213,27 @@
           class="mx-auto grid items-center  max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12 my-36">
         <img src="../assets/liveit1.png"
              alt="Product screenshot"
-             class="col-span-7 rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-4 lg:-ml-0"
+             class="col-span-7 rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-4 lg:-ml-0 order-last lg:order-first"
         />
-        <div class="col-span-5 lg:pl-8 lg:pt-4">
+        <div class="col-span-5 lg:pl-8 lg:pt-4 ">
           <div class="lg:max-w-lg">
-            <h2 class="text-3xl font-semibold leading-7 text-primary-800">Live It</h2>
-            <p class="mt-2 text-3xl font-medium tracking-tight text-gray-900 sm:text-2xl">A Story for Every Kid</p>
-            <p class="mt-6 text-lg leading-8 text-gray-600 mb-6">
+            <h2 class="text-2xl sm:text-3xl font-semibold leading-7 text-primary-800">Live It</h2>
+            <p class="mt-2 text-2xl sm:text-3xl font-medium tracking-tight text-gray-900 sm:text-2xl">A Story for Every
+              Kid</p>
+            <p class="mt-6 text-base sm:text-lg leading-8 text-gray-600 mb-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
               industry's standard dummy text ever since the 1500s.
             </p>
-            <div class="text-primary-800 font-medium text-xl">View case study</div>
+            <div class="flex items-center gap-4 text-primary-800 font-medium text-base sm:text-xl">
+              <div>View case study</div>
+              <svg class="text-primary-800" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <circle cx="15" cy="15" r="14.5" stroke="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M20.3386 14.7863L15.8353 18.5167L16.2205 18.9744L21.6051 14.4745L16.2205 10L15.8346 10.4569L20.3389 14.188H7.24609V14.7863H20.3386Z"
+                      fill="currentColor"/>
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -198,14 +241,24 @@
           class="mx-auto grid items-center  max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12 my-36">
         <div class="col-span-5 lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
-            <h2 class="text-3xl font-semibold leading-7 text-primary-800">Deco APP</h2>
-            <p class="mt-2 text-3xl font-medium tracking-tight text-gray-900 sm:text-2xl">Find the tents to save your
+            <h2 class="text-2xl sm:text-3xl font-semibold leading-7 text-primary-800">Deco APP</h2>
+            <p class="mt-2 text-2xl sm:text-3xl font-medium tracking-tight text-gray-900 sm:text-2xl">Find the tents to
+              save your
               Windshield</p>
-            <p class="mt-6 text-lg leading-8 text-gray-600 mb-6">
+            <p class="mt-6 text-base sm:text-lg leading-8 text-gray-600 mb-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
               industry's standard dummy text ever since the 1500s.
             </p>
-            <div class="text-primary-800 font-medium text-xl">View case study</div>
+            <div class="flex items-center gap-4 text-primary-800 font-medium text-base sm:text-xl">
+              <div>View case study</div>
+              <svg class="text-primary-800" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <circle cx="15" cy="15" r="14.5" stroke="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M20.3386 14.7863L15.8353 18.5167L16.2205 18.9744L21.6051 14.4745L16.2205 10L15.8346 10.4569L20.3389 14.188H7.24609V14.7863H20.3386Z"
+                      fill="currentColor"/>
+              </svg>
+            </div>
           </div>
         </div>
         <img src="../assets/deco2.png"
@@ -219,11 +272,14 @@
   <!-- Section 5 -->
   <div class="bg-secondary py-24 sm:py-32 overflow-hidden">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <h2 class="text-2xl font-medium text-white tracking-tight sm:text-5xl mb-20">
-        Let's kick off your project in 3 easy steps
-      </h2>
+      <div class="mb-10 sm:mb-20 space-y-5">
+        <h2 class="text-2xl font-medium text-white tracking-tight sm:text-5xl ">
+          Let's kick off your project in 3 easy steps
+        </h2>
+        <div class="border border-4 border-primary-800 w-28 sm:w-44 rounded-lg"/>
+      </div>
       <div
-          class="rounded-xl border border-gray-100/5 bg-gradient-to-r from-primary-900/10 to-black/10 backdrop-blur-md flex gap-12">
+          class="rounded-xl border border-gray-100/5 bg-gradient-to-r from-primary-900/10 to-black/10 backdrop-blur-md block sm:flex gap-12">
         <div
             class="relative flex p-10 flex-col justify-between items-start flex-1 self-stretch rounded-xl overflow-hidden">
           <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -281,12 +337,18 @@
   <!-- Section 6 -->
   <div class="bg-white py-24 sm:py-32 overflow-hidden">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <h2 class="text-2xl font-medium text-primary-800 tracking-tight sm:text-5xl mb-2">
-        No need to wonder
-      </h2>
-      <h2 class="text-xl font-medium tracking-tight  sm:text-3xl mb-20">
-        Working with us is wonderful
-      </h2>
+      <div class="mb-10 sm:mb-20 space-y-5">
+        <div>
+          <h2 class="text-2xl font-medium text-primary-800 tracking-tight sm:text-5xl ">
+            No need to wonder
+          </h2>
+          <h2 class="text-xl font-medium tracking-tight  sm:text-3xl ">
+            Working with us is wonderful
+          </h2>
+        </div>
+        <div class="border border-4 border-primary-800 w-28 sm:w-44 rounded-lg"/>
+      </div>
+
       <ul role="list"
           class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4">
         <li v-for="person in people" :key="person.name">

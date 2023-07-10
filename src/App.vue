@@ -1,14 +1,17 @@
 <template>
-  <WorkDetails/>
+  <HomePage/>
+<!--  <WorkDetails/>-->
 </template>
 
 <script>
-import WorkDetails from "@/components/WorkDetails.vue";
+import HomePage from "@/components/HomePage.vue";
+// import WorkDetails from "@/components/WorkDetails.vue";
 
 export default {
   name: 'App',
   components: {
-    WorkDetails,
+    HomePage,
+    // WorkDetails,
   }
 }
 </script>
