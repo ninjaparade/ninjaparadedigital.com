@@ -63,31 +63,41 @@
   </header>
 
   <!-- Section 1 -->
-  <div class="bg-secondary pt-32 pb-40 sm:pt-52 sm:pb-64 overflow-hidden">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <h2 class="text-5xl font-medium tracking-tight text-primary-800 sm:text-8xl mb-8">Deco</h2>
+  <div class="bg-secondary pt-20 pb-10 sm:pt-52 sm:pb-64 overflow-hidden">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 relative">
+      <h2 class="text-5xl font-medium tracking-tight text-primary-800 sm:text-8xl mb-4 sm:mb-8">Deco</h2>
       <h2 class="text-xl font-medium tracking-tight text-white sm:text-4xl">Find the tents to save your Windshield</h2>
-      <p class="mt-4 text-lg sm:text-2xl max-w-2xl leading-8 text-gray-200 mb-32">
+      <p class="mt-4 text-lg sm:text-2xl max-w-2xl leading-8 text-gray-200 mb-10 sm:mb-32">
         Ninjaparade Crafts Stunning Apps That Wow Users with Innovative Features and Intuitive Designs, Delivering
         Unmatched User Experiences
       </p>
       <img src="../assets/deco-hero-details.png"
            alt="Product screenshot"
-           class="col-span-7 rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-4 lg:-ml-0"
+           class=" w-full rounded-xl shadow-xl ring-1 ring-gray-400/10 hidden sm:block"
       />
+    </div>
+    <div class="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
+      <div class="max-w-xl flex-none sm:max-w-5xl lg:max-w-none">
+        <div class=" ml-4 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+          <img src="../assets/deco-hero-details.png" alt="App screenshot" width="2524" height="1382"
+               class="w-[54rem] rounded-md shadow-2xl ring-1 ring-gray-900/10"></div>
+      </div>
     </div>
   </div>
 
   <!-- Section 2 -->
   <div class="bg-secondary py-24 sm:py-32 overflow-hidden">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <h2 class="text-2xl font-medium tracking-tight sm:text-5xl text-white mb-20">
-        What Tech Stack we use?
-      </h2>
-      <div class="flex gap-12">
+      <div class="mb-10 sm:mb-20 space-y-5">
+        <h2 class="text-2xl font-medium text-white tracking-tight sm:text-5xl ">
+          What Tech Stack we use?
+        </h2>
+        <div class="border border-4 border-primary-800 w-28 sm:w-44 rounded-lg"/>
+      </div>
+      <div class="block space-y-10 sm:space-y-0 sm:flex gap-12">
         <div
             class="relative border border-primary-900 bg-secondary flex p-10 flex-col justify-between items-start flex-1 self-stretch rounded-xl h-[355px] overflow-hidden">
-          <h4 class="text-white text-lg sm:text-4xl">Laravel</h4>
+          <h4 class="text-white text-2xl sm:text-3xl">Laravel</h4>
           <img class="w-[126px] absolute -right-4 -top-4" src="../assets/laravel-logo.png" alt="Laravel Logo"/>
           <div>
             <p class="mb-6 text-gray-200">
@@ -95,10 +105,9 @@
             </p>
           </div>
         </div>
-
         <div
             class="relative border border-primary-900 bg-secondary flex p-10 flex-col justify-between items-start flex-1 self-stretch rounded-xl h-[355px] overflow-hidden">
-          <h4 class="text-white text-lg sm:text-4xl">Vue</h4>
+          <h4 class="text-white text-2xl sm:text-3xl">Vue</h4>
           <img class="w-[72px] absolute -right-0 top-0" src="../assets/vue-logo.png" alt="Laravel Logo"/>
           <div>
             <p class="mb-6 text-gray-200">
@@ -108,7 +117,7 @@
         </div>
         <div
             class="relative border border-primary-900 bg-secondary flex p-10 flex-col justify-between items-start flex-1 self-stretch rounded-xl h-[355px] overflow-hidden">
-          <h4 class="text-white text-lg sm:text-4xl">UI & UX Design</h4>
+          <h4 class="text-white text-2xl sm:text-3xl">UI & UX Design</h4>
           <img class="w-[88px] absolute -right-6 top-2" src="../assets/figma-logo.png" alt="Laravel Logo"/>
           <div>
             <p class="mb-6 text-gray-200">
@@ -125,28 +134,27 @@
   <div class="overflow-hidden bg-white py-24 sm:py-32 overflow-hidden">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div
-          class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12 mb-36">
-        <div class="col-span-7 mx-auto">
+          class="mx-auto grid max-w-2xl grid-cols-1 sm:gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12 mb-36">
+        <div class="col-span-7 sm:mx-auto">
           <img src="../assets/deco-logo.png"
                alt="Product screenshot"
                class=" w-44  md:-ml-4 lg:-ml-0 mt-4"
           />
         </div>
-
         <div class="col-span-5 lg:pl-8">
           <div class="lg:max-w-lg">
-            <p class="mt-2 text-3xl font-medium tracking-tight text-gray-900 sm:text-3xl">
+            <p class="mt-2 text-2xl sm:text-3xl font-medium tracking-tight text-gray-900 sm:text-3xl">
               Dedication to great service.
             </p>
-            <p class="mt-6 text-lg leading-8 text-gray-600 mb-6">
+            <p class="mt-6 text-base sm:text-lg leading-8 text-gray-600 mb-6">
               DECO has repaired over a million windshield chips at our high-quality, professional service locations. But
               that's not all we do.
             </p>
-            <p class="mt-6 text-lg leading-8 text-gray-600 mb-6">
+            <p class="mt-6 text-base sm:text-lg leading-8 text-gray-600 mb-6">
               Find DECO's Orange Tent autoglass repair locations, no matter where you are. Our website is mobile-ready,
               making it easy to find our nearest location to you.
             </p>
-            <p class="mt-6 text-lg leading-8 text-gray-600 mb-6">
+            <p class="mt-6 text-base sm:text-lg leading-8 text-gray-600 mb-6">
               We're committed to environmental friendliness by aiming to reduce the amount of damaged, non-recyclable
               windshields ending up in landfills every year.
             </p>
@@ -154,12 +162,12 @@
         </div>
       </div>
       <div
-          class="mx-auto grid items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12">
+          class="mx-auto grid items-center max-w-2xl grid-cols-1 sm:gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12">
         <div class="col-span-5 lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
-            <h2 class="text-3xl font-semibold leading-7 text-primary-800">Wonder how it started ?</h2>
-            <p class="mt-2 text-3xl font-medium tracking-tight text-gray-900 sm:text-2xl">Check the UX on figma</p>
-            <p class="mt-6 text-lg leading-8 text-gray-600 mb-6">
+            <h2 class="text-2xl sm:text-3xl font-semibold leading-7 text-primary-800">Wonder how it started ?</h2>
+            <p class="mt-2 text-2xl sm:text-3xl font-medium tracking-tight text-gray-900 sm:text-2xl">Check the UX on figma</p>
+            <p class="mt-6 text-base sm:text-lg leading-8 text-gray-600 mb-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
               industry's standard dummy text ever since the 1500s.
             </p>
@@ -171,18 +179,18 @@
         />
       </div>
       <div
-          class="mx-auto grid items-center  max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12 my-36">
+          class="mx-auto grid items-center  max-w-2xl grid-cols-1 sm:gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12 my-36">
         <img src="../assets/deco2.png"
              alt="Product screenshot"
-             class="col-span-7 rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-4 lg:-ml-0"
+             class="col-span-7 rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-4 lg:-ml-0 order-last lg:order-first"
         />
         <div class="col-span-5 lg:pl-8 lg:pt-4">
           <div class="lg:max-w-lg">
-            <h2 class="text-3xl font-semibold leading-7 text-primary-800">This is how the UX/UI ended</h2>
-            <p class="mt-2 text-3xl font-medium tracking-tight text-gray-900 sm:text-2xl">
+            <h2 class="text-2xl sm:text-3xl font-semibold leading-7 text-primary-800">This is how the UX/UI ended</h2>
+            <p class="mt-2 text-2xl sm:text-3xl font-medium tracking-tight text-gray-900 sm:text-2xl">
               Creating a Seamless Flow That Delights
             </p>
-            <p class="mt-6 text-lg leading-8 text-gray-600 mb-6">
+            <p class="mt-6 text-base sm:text-lg leading-8 text-gray-600 mb-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
               industry's standard dummy text ever since the 1500s.
             </p>
@@ -209,10 +217,10 @@
   <div class="relative isolate overflow-hidden bg-secondary">
     <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40 items-center">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-2xl lg:flex-shrink-0 lg:pt-8">
-        <h1 class="mt-10 text-4xl font-medium tracking-tight text-white sm:text-5xl">
+        <h1 class="mt-10 text-2xl sm:text-4xl font-medium tracking-tight text-white sm:text-5xl">
           Why you need a jsconfig.js when using VSCode
         </h1>
-        <div class="mt-24 sm:mt-32 lg:mt-6">
+        <div class="mt-6 sm:mt-6">
           <a href="#" class="inline-flex space-x-6">
             <span
                 class="rounded-full bg-primary-800 px-4 py-1 text-sm font-semibold leading-6 text-white ring-1 ring-inset ring-primary-600/10">Dev</span>
@@ -237,51 +245,54 @@
   <!-- Section 6 -->
   <div class="bg-white py-24 sm:py-32 overflow-hidden">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <p class="mt-6 text-lg leading-8 text-gray-900 mb-10">
+      <p class="mt-6 sm:text-lg leading-8 text-gray-900 mb-10">
         If you want to improve your developer experience when working in JavasScript with VSCode, you need to start
         adding a jsconfig.json file to all your projects.
       </p>
-      <h2 class="text-3xl font-semibold leading-7 text-gray-900">This is how the UX/UI ended</h2>
-      <p class="mt-6 text-lg leading-8 text-gray-900 mb-6">
+      <h2 class="text-xl sm:text-3xl font-semibold leading-7 text-gray-900">This is how the UX/UI ended</h2>
+      <p class="mt-6 sm:text-lg leading-8 text-gray-900 mb-6">
         VSCode uses a jsconfig.json file to aid your JavaScript language service and significantly improve your
         development experience.
       </p>
-      <p class="mt-6 text-lg leading-8 text-gray-900 mb-6">
+      <p class="mt-6 sm:text-lg leading-8 text-gray-900 mb-6">
         Let's say you've just installed a new Laravel PHP application and are using the Laravel Breeze Inertia starter
         kit. When you open the webpack.config.js file, you'll see the following.
       </p>
-      <img alt="Image" class="h-[275px]" src="../assets/blog-image-content-1.png"/>
-      <p class="mt-6 text-lg leading-8 text-gray-900 mb-6">
+      <img alt="Image" class="sm:h-[275px]" src="../assets/blog-image-content-1.png"/>
+      <p class="mt-6 sm:text-lg leading-8 text-gray-900 mb-6">
         The above helps instruct Webpack on how modules are resolved in your application. It allows you to use @ as a
         shortcut, so you don't have to back step to create relative paths to other components.
       </p>
-      <p class="mt-6 text-lg leading-8 text-gray-900 mb-6">
+      <p class="mt-6 sm:text-lg leading-8 text-gray-900 mb-6">
         Let’s say you have the following a component in
         <b>/resources/js/Components</b> called Input.vue and Page component in <b>/resources/js/Pages/Dashboard/Index.vue.</b>
         To import the <b>Input.vue</b> component, it would look like this.
       </p>
-      <img alt="Image" class="h-[52px]" src="../assets/blog-image-content-2.png"/>
-      <p class="mt-6 text-lg leading-8 text-gray-900 mb-6">
+      <img alt="Image" class="sm:h-[52px]" src="../assets/blog-image-content-2.png"/>
+      <p class="mt-6 sm:text-lg leading-8 text-gray-900 mb-6">
         With the help of the @ alias, you can change this to the following.
       </p>
-      <img alt="Image" class="h-[52px]" src="../assets/blog-image-content-2.png"/>
-      <p class="mt-6 text-lg leading-8 text-gray-900 font-bold mb-6">
+      <img alt="Image" class="sm:h-[52px]" src="../assets/blog-image-content-2.png"/>
+      <p class="mt-6 sm:text-lg leading-8 text-gray-900 font-bold mb-6">
         Note you might have to restart VSCode for jsconfig.json to take effect.
       </p>
-      <p class="mt-6 text-lg leading-8 text-gray-900 mb-6">
+      <p class="mt-6 sm:text-lg leading-8 text-gray-900 mb-6">
         Now, when you type import Input from '@". You will start to see your folder structure and the files that are in
         each directory.
       </p>
-      <img alt="Image" class="h-[248px]" src="../assets/blog-image-content-3.png"/>
+      <img alt="Image" class="sm:h-[248px]" src="../assets/blog-image-content-3.png"/>
     </div>
   </div>
 
   <!-- Section 6 -->
   <div class="bg-white py-24 sm:py-32 overflow-hidden">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <h2 class="text-2xl font-medium text-primary-800 tracking-tight sm:text-5xl mb-2">
-        Behind t his masterpiece
-      </h2>
+      <div class="mb-10 sm:mb-20 space-y-5">
+          <h2 class="text-2xl font-medium text-primary-800 tracking-tight sm:text-5xl">
+            Behind t his masterpiece
+          </h2>
+        <div class="border border-4 border-secondary w-28 sm:w-44 rounded-lg"/>
+      </div>
       <ul role="list"
           class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4">
         <li v-for="person in people" :key="person.name">

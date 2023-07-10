@@ -181,7 +181,7 @@
         Most recent work
       </h4>
       <div
-          class="mx-auto grid items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12">
+          class="mx-auto grid items-center max-w-2xl grid-cols-1 sm:gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12">
         <div class="col-span-5 lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
             <h2 class="text-2xl sm:text-3xl font-semibold leading-7 text-primary-800">Deco</h2>
@@ -210,7 +210,7 @@
         />
       </div>
       <div
-          class="mx-auto grid items-center  max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12 my-36">
+          class="mx-auto grid items-center  max-w-2xl grid-cols-1 sm:gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12 my-36">
         <img src="../assets/liveit1.png"
              alt="Product screenshot"
              class="col-span-7 rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-4 lg:-ml-0 order-last lg:order-first"
@@ -238,7 +238,7 @@
         </div>
       </div>
       <div
-          class="mx-auto grid items-center  max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12 my-36">
+          class="mx-auto grid items-center  max-w-2xl grid-cols-1 sm:gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-12 my-36">
         <div class="col-span-5 lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
             <h2 class="text-2xl sm:text-3xl font-semibold leading-7 text-primary-800">Deco APP</h2>
@@ -339,7 +339,7 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mb-10 sm:mb-20 space-y-5">
         <div>
-          <h2 class="text-2xl font-medium text-primary-800 tracking-tight sm:text-5xl ">
+          <h2 class="text-2xl font-medium text-primary-800 tracking-tight sm:text-5xl">
             No need to wonder
           </h2>
           <h2 class="text-xl font-medium tracking-tight  sm:text-3xl ">
@@ -350,7 +350,7 @@
       </div>
 
       <ul role="list"
-          class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4">
+          class="mx-auto mt-20 grid max-w-2xl grid-cols-1 sm:gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4">
         <li v-for="person in people" :key="person.name">
           <img class="aspect-[14/13] w-full rounded-2xl object-cover"
                :src="require(`@/assets/${person.imageUrl}`)"
